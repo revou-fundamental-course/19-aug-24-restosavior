@@ -18,7 +18,7 @@ nav {
   border-radius: 50%;
   margin-bottom: -17px;
 }
-
+/* navigation */
 .nav-container {
   display: flex;
   align-items: center;
@@ -36,6 +36,7 @@ nav {
   border-radius: 8px;
 }
 
+/* main */
 .banner-img {
   height: 500px;
   background-image: url(https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg);
