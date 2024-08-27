@@ -1,19 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
 nav {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
-.logo-icon {
-  height: 48px;
-  width: 48px;
-  background-image: url(Asset\pexels-magda-ehlers-pexels-1337384.jpg)
-  background-size: cover;
+.logo {
+  margin-left: 10px;
+  text-align: center;
+}
+
+.image {
   border-radius: 50%;
+  margin-bottom: -17px;
 }
 
 .nav-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-item {
@@ -33,7 +42,6 @@ nav {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
 }
 
 .profile-container {
