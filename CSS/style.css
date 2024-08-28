@@ -4,6 +4,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+article {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -48,18 +54,37 @@ nav {
 .profile-container {
   display: flex;
   justify-content: space-around;
+  height: auto;
+  width: auto;
 }
 
 .profile-item {
-  height: 100px;
-  text-align: -webkit-center;
+  height: 350px;
+  width: 300px;
+  text-align: center;
 }
 
-.profile-img {
-  height: 50px;
-  background-image: url(https://picsum.photos/250);
+.profile-img-1 {
+  height: 260px;
+
+  background-image: url(https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   background-position: center;
-  border-radius: 0 15px 0 15px;
-  width: 50px;
+  border-radius: 55%;
+}
+
+.profile-img-2 {
+  height: 260px;
+  background-image: url(https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: center;
+  border-radius: 55%;
+}
+
+.profile-img-3 {
+  height: 260px;
+  background-image: url(https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: center;
+  border-radius: 55%;
 }
