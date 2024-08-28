@@ -34,8 +34,11 @@
 
             <p>We dont creat space, we transform it</p>
 
-            <div class="banner-img"></div>
+            <div class="banner-img img-1"></div>
+            <div class="banner-img img-2"></div>
+            <div class="banner-img img-3"></div>
         </article>
+        <button type="button" onclick="nextSlide(1)">Next</button>
 
         <hr />
 
@@ -65,11 +68,17 @@
         <hr>
 
         <section>
+            <header><h1>Message Us</h1></header>
             <form>
+                <div><label for="name">Name</label><input id="name"></div>
+                <button type="button" onclick="formValidation()">Submit</button>
 
             </form>
 
-            <div></div>
+            <div>
+                Result: <span id="result"></span>
+            </div>
+            
         </section>
     </main>
 
@@ -77,6 +86,7 @@
         <h2>Raja Interior</h2>
         <p>Bandung</p>
     </footer>
+    <script src="JS/script.js"></script>
 </body>
 
 </html>

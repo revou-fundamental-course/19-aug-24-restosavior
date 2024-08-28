@@ -43,12 +43,23 @@ nav {
 }
 
 /* main */
+
+/* sliding banner */
 .banner-img {
-  height: 500px;
-  background-image: url(https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  height: 500px;
+}
+.img-1 {
+  background-image: url(https://images.pexels.com/photos/2932549/pexels-photo-2932549.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.img-2 {
+  background-image: url(https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg);
+}
+
+.img-3 {
+  background-image: url(https://images.pexels.com/photos/4469178/pexels-photo-4469178.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 
 .profile-container {
@@ -87,4 +98,13 @@ nav {
   background-size: cover;
   background-position: center;
   border-radius: 55%;
+}
+
+@media only screen and (max-width: 480px) {
+  nav {
+    flex-direction: column;
+  }
+  .profile-container {
+    flex-direction: column;
+  }
 }
