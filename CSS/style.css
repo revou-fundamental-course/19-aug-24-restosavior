@@ -11,11 +11,15 @@ article {
 }
 
 nav {
+  height: 120px;
   display: flex;
   justify-content: space-between;
+  background-color: mintcream;
+  text-transform: uppercase;
 }
 
 .logo {
+  margin-top: 10px;
   margin-left: 10px;
   text-align: center;
 }
@@ -29,17 +33,23 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 10px;
 }
 
 .nav-item {
-  border: 1px solid;
   color: black;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
   margin: 10px;
   padding: 8px;
-  border-radius: 8px;
+}
+
+.nav-item:hover {
+  background-color: black;
+  color: mintcream;
+  transition: 0.5s;
+  border-radius: 10px;
 }
 
 /* main */
@@ -61,6 +71,8 @@ nav {
 .img-3 {
   background-image: url(https://images.pexels.com/photos/4469178/pexels-photo-4469178.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
+
+/* profile */
 
 .profile-container {
   display: flex;
