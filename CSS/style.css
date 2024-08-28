@@ -2,32 +2,26 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  background-color: whitesmoke;
 }
 
-article {
-  text-align: center;
-  font-weight: bold;
-  font-size: large;
-}
+
 
 nav {
-  height: 120px;
+  height: 100px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  background-color: mintcream;
+  background-color: whitesmoke;
   text-transform: uppercase;
-}
+ }
 
 .logo {
   margin-top: 10px;
   margin-left: 10px;
-  text-align: center;
+  margin-bottom: 2px;
 }
 
-.image {
-  border-radius: 50%;
-  margin-bottom: -17px;
-}
 /* navigation */
 .nav-container {
   display: flex;
@@ -47,12 +41,18 @@ nav {
 
 .nav-item:hover {
   background-color: black;
-  color: mintcream;
+  color: whitesmoke;
   transition: 0.5s;
   border-radius: 10px;
 }
 
 /* main */
+article {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+ 
+}
 
 /* sliding banner */
 .banner-img {
@@ -73,17 +73,18 @@ nav {
 }
 
 /* profile */
+.profile-header {
+  text-align: center;
+}
 
 .profile-container {
   display: flex;
   justify-content: space-around;
-  height: auto;
-  width: auto;
-}
+  }
 
 .profile-item {
   height: 350px;
-  width: 300px;
+  width: 350px;
   text-align: center;
 }
 
@@ -93,24 +94,23 @@ nav {
   background-image: url(https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   background-position: center;
-  border-radius: 55%;
+  border-radius: 50%;
 }
 
 .profile-img-2 {
   height: 260px;
-  background-image: url(https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://images.pexels.com/photos/460537/pexels-photo-460537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   background-position: center;
-  border-radius: 55%;
+  border-radius: 50%;
 }
 
 .profile-img-3 {
   height: 260px;
-  background-image: url(https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://images.pexels.com/photos/90319/pexels-photo-90319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   background-position: center;
-  border-radius: 55%;
-}
+  border-radius: 50%;
 
 @media only screen and (max-width: 480px) {
   nav {
