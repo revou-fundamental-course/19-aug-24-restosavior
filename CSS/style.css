@@ -88,21 +88,32 @@ article {
   text-align: center;
 }
 
+.profile-item h2:hover {
+  background-color: black;
+  color: whitesmoke;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+
 .profile-img-1 {
   height: 260px;
 
   background-image: url(https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   background-position: center;
-  border-radius: 50%;
+  border-radius: 0 30px 0 30px;
 }
+
+
+
 
 .profile-img-2 {
   height: 260px;
   background-image: url(https://images.pexels.com/photos/460537/pexels-photo-460537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   background-position: center;
-  border-radius: 50%;
+  border-radius:  0 30px 0 30px;
 }
 
 .profile-img-3 {
@@ -110,7 +121,68 @@ article {
   background-image: url(https://images.pexels.com/photos/90319/pexels-photo-90319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   background-position: center;
-  border-radius: 50%;
+  border-radius:  0 30px 0 30px;
+
+  /* form */
+.box {
+  width: 400px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 5px #89c9f3, -2px -2px 5px #89c9f3;
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+  padding: 20px 40px;
+}
+
+.signup-header h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  padding: 5px 8px;
+}
+
+.signup-body p {
+  margin-top: 20px;
+  position: relative;
+}
+.signup-body p span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #f7768e
+}
+
+.signup-body p label {
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #d5d6db;
+}
+
+.signup-body p input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-block: 4px;
+  border: 1px solid #bfbfbf;
+  outline: none;
+  color: #000;
+}
+
+.signup-body p input[type="submit"] {
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+.signup-body p input[type="submit"] 
+
+
 
 @media only screen and (max-width: 480px) {
   nav {

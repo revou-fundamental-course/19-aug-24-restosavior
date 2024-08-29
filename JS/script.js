@@ -1,14 +1,3 @@
-function formValidation() {
-  let name = document.getElementById("name").value;
-  if (name == "") {
-    alert("Mohon isi form terlebih dahulu");
-    document.getElementById("result").innerHTML = "-";
-  } else {
-    document.getElementById("result").innerHTML = name;
-  }
-  console.log(name);
-}
-
 // sliding banner
 let indexSlide = 1;
 showBanner(1);
@@ -30,3 +19,4 @@ function showBanner(indexBanner) {
   listImage[indexSlide - 1].style.display = "block";
   console.log(listImage);
 }
+

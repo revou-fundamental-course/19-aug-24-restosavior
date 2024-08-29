@@ -69,23 +69,51 @@
         
         <!-- form -->
         <section>
-            <header><h1>Message Us</h1></header>
-            <form>
-                <div><label for="name">Name: </label><input id="name"></div>
-                <button type="button" onclick="formValidation()">Submit</button>
+            <div class="box">
+                <header class="signup-header">
+                    <h1>Submit for More Information</h1>
+                </header>
+                <main class="signup-body">
+                    <form action="#">
+                        <p>
+                            <label for="name">Full Name</label>
+                            <input type="text" placeholder="Enter Your Name" id="name"/>
+                            <span id="nameError"></span>
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="email@email.com" id="email">
+                            <span id="emailError"></span>
+                        </p>
+                        <p>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="Enter Your Password">
+                            <span id="PassError"></span>
+                        </p>
+                        <p>
+                            <input type="submit" value="Create Account" id="submitBtn">
+                        </p>
+                    
+                    </form>
+    
+                </main>
+    
+                <footer class="signup-footer">
+                    <p>Already Have an Account? <a href="">Log In</a></p>
+                </footer>
 
-            </form>
-
-            <div>
-                Result: <span id="result"></span>
             </div>
+          
+            
+
+           
             
         </section>
     </main>
 
     <!-- footer -->
     <footer>
-        <h2>Raja Interior</h2>
+        <h2>The Masonry</h2>
         <p>Bandung</p>
     </footer>
     <script src="JS/script.js"></script>
